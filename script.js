@@ -57,7 +57,7 @@ function handleGuess() {
 
     attemptsDisplay.textContent = attempts;
 
-    previousGuesses.textContent = userGuesses.join(", ");
+    previousGuesses.textContent = userGuesses.join(" , ");
 
     if (guess === targetNumber) {
         showFeedback(`correct the number was ${targetNumber}. `);
@@ -110,6 +110,5 @@ function resetGame() {
 
     guessInput.focus();
 }
-
 
 
