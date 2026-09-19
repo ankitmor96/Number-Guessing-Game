@@ -11,20 +11,27 @@ The computer randomly generates a number between 1 and 100, and the player has t
 🚀 Features
 🎲 Random number generation between 1 and 100
 🔢 User can enter a number and submit a guess
+
 ⬆️ Shows Too Low when the guess is smaller than the target
 ⬇️ Shows Too High when the guess is larger than the target
+
 ✅ Displays a success message when the correct number is guessed
 📊 Tracks the number of attempts
+
 📝 Displays all previous guesses
 🚫 Prevents duplicate guesses
+
 ⚠️ Validates empty, invalid, and out-of-range inputs
 ⌨️ Supports pressing the Enter key to submit a guess
+
 🔄 Reset button starts a new game
 🔒 Disables the input and submit button after the game is completed
+
 🛠️ Technologies Used
 HTML5 – Website structure
 CSS3 – Styling and layout
 JavaScript (ES6) – Game logic and interactivity
+
 📂 Project Structure
 Number Guessing Game/
 │
@@ -32,6 +39,7 @@ Number Guessing Game/
 ├── style.css
 ├── script.js
 └── README.md
+
 🎮 How the Game Works
 The game generates a random number between 1 and 100.
 Enter your guess in the input field.
@@ -43,6 +51,7 @@ If the guess is correct → Correct
 Your attempt count and previous guesses are displayed.
 Once the correct number is guessed, the game ends.
 Click Reset Game to start a new game.
+
 🧠 JavaScript Concepts Used
 
 This project helped me practice the following JavaScript concepts:
@@ -65,6 +74,7 @@ Button events
 Input validation
 Updating HTML using textContent
 Enabling and disabling form elements
+
 🔑 Important Game Logic
 
 The target number is generated using:
