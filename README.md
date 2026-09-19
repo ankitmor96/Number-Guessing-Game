@@ -3,6 +3,9 @@
 
 A simple and interactive Number Guessing Game built using HTML, CSS, and JavaScript.
 
+<img width="1917" height="916" alt="Screenshot 2026-09-19 125417" src="https://github.com/user-attachments/assets/9b6aefe9-e29c-485e-99db-54158b83e3bc" />
+
+
 The computer randomly generates a number between 1 and 100, and the player has to guess the correct number. After every guess, the game provides feedback such as Too Low, Too High, or Correct.
 
 🚀 Features
